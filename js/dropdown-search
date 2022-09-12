@@ -1,0 +1,9 @@
+$(document).ready(function() {
+    var botao = $('.search-btn');
+    var dropDown = $('.input-area');    
+   
+       botao.on('click', function(event){
+           dropDown.stop(true,true).slideToggle();
+           event.stopPropagation();
+       });
+   });

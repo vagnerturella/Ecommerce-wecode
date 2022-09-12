@@ -1,0 +1,822 @@
+
+ 
+  @media only screen and (max-width:376px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+
+/*Navbar*/
+    .header{
+        background: #232323;
+        height: 64px;
+        width: 375px;
+        display: flex;  
+        position: fixed;
+        z-index: 10;
+      }
+    .nav{
+      position: fixed;  
+      width: 269px;
+      height: auto;
+      top: 0;
+      bottom: 0;
+      right: -269px;
+      transition: 500ms all;
+      overflow-y: scroll;
+      scrollbar-width: none;
+    }
+
+    ::-webkit-scrollbar{
+        display: none;
+    }
+
+    .nav-list{
+      display: flex ;
+      flex-direction: column;
+      align-items: center;  
+      list-style: none;
+    }
+    .nav-list li{
+        width: 269px;
+        
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .nav-list li  img:nth-child(1) {
+        display: block;
+        position: absolute;
+        width: 68px;
+        height: 68px;
+        margin-left: 34.8px;
+        margin-top: 70px;
+    }
+    .img2{
+        position: relative;
+        width: 76px;
+        height: 76px;
+        margin-left: 30.8px;
+        margin-top: 66px;
+    }
+    .nav-list #li-user{
+        width: 269px;
+        height: 178px;
+        background-color: #232323;
+    }
+    .nav-list li:nth-child(2) {
+        background-color: #343434;
+        
+    }
+    .nav-list li:nth-child(3) {
+        background-color: #464646;
+        width: 269px;
+    }
+    .nav-list li:nth-child(4) {
+        background-color:  #5A5A5A;
+        width: 269px;
+        height: 99px;
+    }
+    .nav-list li:nth-child(5) {
+        background-color: #7C7C7C;
+        height: 99px;
+    }
+    .nav-list li:nth-child(6) {
+        background-color: #AEAEAE;
+        height: 99px;
+    }
+    .nav-list li:nth-child(7) {
+        background-color: #D2D2D2;
+        height: 99px;
+    }
+    .nav-list a{
+        padding-top: 2.5rem;
+        padding-left: 2rem;
+        text-decoration: none;
+        color: #fff;
+        width: 269px;
+    }
+    #linkuser{
+        margin-top: -6rem;
+        padding-left: 7.5rem;
+    }
+    #nav-link-5{
+        color: #232323;
+    }
+    #nav-link-6{
+        color: #232323;
+    }
+    #nav-link-out{
+      display: flex;
+      flex-direction: row;
+        color: #828282;
+        background-color: #fff;
+        height: 99px;
+    }
+    #nav-link-out img{
+        color: #828282;
+        width: 14px;
+        height: 12px;
+        margin-top: 3px;
+        margin-left: 35px;
+    }
+
+    #s1{display: flex;
+        color: #fff;
+        width: 26px;
+        height: 21px;
+        line-height: 150%;
+    }
+    #s2{
+        color: #EEFF49;
+        font-style: normal;
+        font-weight: 590;
+        font-size: 18px;
+        line-height: 150%;
+    }
+    .hamburger{
+      display:flex;
+      position:absolute;
+      margin-left: 1.5rem;
+      margin-top: 1.5rem;
+      height: 14.25px;
+      width: 20px;
+      
+    }  
+    
+    .logo{
+        margin-left: 4rem;
+        margin-top: 1rem;
+      }
+    .search{
+      display: flex;
+        margin-left: 3rem;
+        margin-top: 1.5rem;
+      }
+    .cart{
+      display: flex;
+      flex-direction: column;
+        margin-left: 1rem;
+        margin-top: 1.5rem;
+    }
+    #cart-img{
+      position: relative;
+    }
+    #wheel1{
+      position: absolute;
+      margin-left: -14px;
+      margin-top: 15px;
+    }
+    #wheel2{
+      position: absolute;
+      margin-top: 15px;
+      margin-left: -5px;
+    }
+
+    /*DRODOWN MENU*/
+    .li-princ a{
+        display: flex;
+        text-decoration: none;
+        color:#fff;
+        letter-spacing: 0.5px;
+        width: 269px;
+        height: 99px;
+        font-weight: 274;
+        font-size: 16px;
+     }
+     
+     .dep1 a{
+        text-decoration: none;
+        color: #000;
+        display: block;
+        background-color: #EEFF49;
+        height: 60px;
+        line-height: 50%;
+        padding-left: 50px;
+        padding-top: 25px;
+     }
+      .dep2 a{
+        text-decoration: none;
+        color: #000;
+        display: block;
+        background-color: #EEFF49;
+        height: 60px;
+        line-height: 50%;
+        padding-left: 50px;
+        padding-top: 25px;
+
+     }
+     .dep1, .dep2{
+        display: none;
+     }
+
+     /*search drop*/
+     .search{
+      display: flex;
+      flex-direction: column;
+      margin-left: -14.2rem;
+     }
+     .search img{
+      margin-left: 17.5rem;
+     }
+     .input-area input{
+      display: flex;
+      width: 342px;
+      height: 32px;
+      margin-left: 1rem;
+      margin-top:1.2rem;
+      border-radius: 5px;
+      border-style: none;
+     }
+     .input-area li{
+      position: relative;
+      margin-left: -1.2rem;
+      margin-top: -1rem;
+      display: flex;
+      width: 375px;
+      height: 64px;
+      background-color: #232323;
+      
+     }
+     .input-area{
+      padding-right: 4rem;
+      margin-top: 1.5rem;
+      display:none;
+     }
+
+    
+
+
+
+     
+     
+
+
+
+
+  /*SLIDER*/
+      
+      .slider{
+        width: 375px;
+        height: 560px;
+        overflow: hidden;
+      }
+      
+      .slides{
+        width: 500%;
+        height: 560px;
+        display: flex;
+      }
+      
+      .slides input{
+        display: none;
+      }
+      
+      .slide{
+        width: 20%;
+        transition: 2s;
+      }
+      
+      .slide img{
+        width: 375px;
+        height: 560px;
+      }
+      
+      /*css for manual slide navigation*/
+      
+      .navigation-manual{
+        position: absolute;
+        width: 375px;
+        margin-top: -40px;
+        display: flex;
+        justify-content: center;
+      }
+      
+      .manual-btn{
+        border: 1px solid #AEAEAE;
+        padding: 3px;
+        border-radius: 14px;
+        cursor: pointer;
+        transition: 1s;
+      }
+      
+      .manual-btn:not(:last-child){
+        margin-right: 40px;
+      }
+      
+      .manual-btn:hover{
+        background: #AEAEAE;
+      }
+      
+      #radio1:checked ~ .first{
+        margin-left: 0;
+      }
+      
+      #radio2:checked ~ .first{
+        margin-left: -20%;
+      }
+      
+      #radio3:checked ~ .first{
+        margin-left: -40%;
+      }
+      
+      
+      
+      /*css for automatic navigation*/
+      
+      .navigation-auto{
+        position: absolute;
+        display: flex;
+        width: 375px;
+        justify-content: center;
+        margin-top: 520px;
+      }
+      
+      .navigation-auto div{
+        border: 1px solid #AEAEAE;
+        padding: 3px;
+        border-radius: 14px;
+        transition: 1s;
+      }
+      
+      .navigation-auto div:not(:last-child){
+        margin-right: 40px;
+      }
+      
+      #radio1:checked ~ .navigation-auto .auto-btn1{
+        background: #AEAEAE;
+      }
+      
+      #radio2:checked ~ .navigation-auto .auto-btn2{
+        background: #AEAEAE;
+      }
+      
+      #radio3:checked ~ .navigation-auto .auto-btn3{
+        background: #AEAEAE;
+      }
+      
+     
+
+      /*CARD BANNERS*/
+
+      .banners{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 1.5rem;
+      }
+
+      .card-banner{
+        position: relative;
+        padding: 0.5rem;
+      }
+
+      .txt-div{
+        position: absolute;
+        top: 5rem;
+        left: 2rem;
+        color: #fff;
+      }
+
+      /*PRODUCT CARD*/
+
+      .container-products{
+        margin-top: 35px;
+        margin-left: 1.1rem;
+        margin-right: 1.1rem;
+        margin-bottom: 1.5rem;
+      }
+      .container-products h1{
+        font-size: 20px;
+        font-weight: 300;
+        margin-left: 0rem;
+        margin-bottom: 1.5rem;
+      }
+      .card-container{
+        display: flex;
+        overflow-x: auto;
+        overflow-y: hidden;
+      }
+      .card-container::-webkit-scrollbar{
+        width: 0px;
+      }
+      .card-container .product-card{
+        min-width: 269px;
+        height: 403px;
+        text-align: center;
+        margin-right: 12px;
+      }
+
+      .product-card{
+        position: relative;
+      }
+
+      .txt-description{
+        position: absolute;
+        display: flex;
+        color: #ffffff;
+        top: 1.5rem;
+        left: 1rem;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+      }
+
+      .txt-description #txt1{
+        display: flex;
+        justify-content: initial;
+      }
+
+      .txt-description #txt2{
+        text-decoration: line-through;
+        margin-left: 5rem;
+      }
+      .txt-description #txt3{
+        font-size: 16px;
+        margin-left: 4rem;
+        color: #EEFF49;
+      }
+
+      .txt-description #btn{
+        margin-top: 18rem;
+        margin-left: -1rem;
+        width: 88px;
+        height: 22px;
+        background-color: #EEFF49
+    
+      }
+      button{
+        outline: none;
+        border: none;
+        font-weight: 550;
+      }
+
+      .txt-description #item1{
+        position: absolute;
+        margin-top: 18.1rem;
+        margin-left: 1.8rem;
+
+      }
+      .txt-description #item2{
+        position: relative;
+        margin-top: 16.8rem;
+        margin-left: 4rem;
+      }
+      .txt-description #item3{
+        position: absolute;
+        margin-top: -0.3rem;
+        margin-left: 2.3rem;
+      }
+      .txt-description #item4{
+        position: absolute;
+        margin-top: -0.3rem;
+        margin-left: 1.7rem;
+      }
+
+      /*kNOW MORE*/
+      #img1{
+        position: relative;
+        width: 375px;
+        height: 320px;
+      }
+
+      #img1 a{
+        position: absolute;
+        top: 160px;
+        left: 250px;
+        color: #fff;
+      }
+      #img2{
+        position: relative;
+        width: 375px;
+        height: 320px;
+      }
+
+      #img2 a{
+        position: absolute;
+        top: 160px;
+        left: 230px;
+        color: #fff;
+      }
+
+
+      /*CONDITIONS*/
+
+      .conditions{
+        height: 75px;
+        width: 375px;
+        background: #F8F8F8;
+        display: flex;
+        overflow-x: auto;
+      }
+      .conditions::-webkit-scrollbar{
+        width: 0px;
+      }
+      .cond-area img{
+        width:20px;
+        height: 14px;
+        margin-right: .5rem;
+        margin-top: 33px;
+      }
+      #img-deliver, #img-pix, #locker{
+        width: 22px;
+        height: 24px;
+        margin-top: 1.8rem;
+      }
+      
+      .cond-area p{
+        color: #8A8A8A;
+        font-size: 12px;
+        line-height: 120%;
+        margin-top: 27px;
+      }
+
+      .conditions .cond-area{
+        min-width: 120px;
+        height: 75px;
+        display: flex;
+        margin-left: 3rem;
+      }
+      .icon-elipse{
+        display: flex;
+        justify-content: center;
+        background-color: #F8F8F8;
+        height: 1rem;
+        margin-bottom: .5rem;
+        
+      }
+      .icon-elipse img{
+        width: 6px;
+        height: 6px;
+        margin-right: 4px;
+      }
+
+      /*FOOTER*/
+      .footer{
+        width: 375px;
+        height: auto;
+        background-color: #232323;
+      }
+      .footer img{
+        width: 179px;
+        height: 40px;
+        margin-top: 56px;
+        margin-left: 16px;
+      }
+      .footer h2{
+        color: #fff;
+        font-weight: 274;
+        font-size: 20px;
+        line-height: 150%;
+        margin-bottom: 12px;
+        margin-left: 16px;
+        text-decoration: none;
+        letter-spacing: 0.5px;
+      }
+      .footer p{
+        font-weight: 274;
+        font-size: 14px;
+        line-height: 150%;
+        margin-left: 16px;
+        color: #fff;
+        margin-bottom: 6px;
+        
+      }
+      form{
+        display: flex;
+      }
+     #input-email{
+        width: 245px;
+        height: 40px;
+        margin-left: 16px;
+     }
+     #btn-email{
+        width: 90px;
+        height: 38px;
+        margin-left: 5px;
+        margin-top: 1px;
+        background-color: #EEFF49;
+     }
+     #img-btn{
+        width: 21px;
+        height: 15px;
+        margin-top: .4rem;
+        margin-left: 0;
+     }
+     .newsletter h2{
+        margin-top: 56px;
+        text-decoration: none;
+        border-bottom: 1px solid #fff;
+        padding-bottom: 3px;
+        line-height: 1.5;
+        width: fit-content;
+     }
+     .social-media{
+        display: flex;
+        flex-direction: row;
+        justify-content: initial;
+     }
+     .social-media img{
+        width: 24px;
+        height: 24px;
+        margin-top: 10px;
+        margin-right: 10px;
+     }
+
+
+
+
+
+     ul{
+        list-style: none;
+     }
+      .about-us a{
+        text-decoration: none;
+        color: #fff;
+        display: block;
+        margin-left: 40px;
+     }
+      .acount a{
+        text-decoration: none;
+        color: #fff;
+        display: block;
+        margin-left: 40px;
+     }
+     .policies a{
+        text-decoration: none;
+        color: #fff;
+        display: block;
+        margin-left: 40px;
+     }
+     .contact a{
+        text-decoration: none;
+        color: #fff;
+        display: block;
+        margin-left: 40px;
+     }
+     .drop-footer{
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-top: 2rem;
+        padding-bottom: 3rem;
+        
+     }
+     ul #ul-principal{
+        padding-bottom: 3rem;
+     }
+     
+     
+     .li-p a{
+        text-decoration: none;
+        color: #fff;
+        letter-spacing: 0.5px;
+        width: 360px;
+        font-weight: 274;
+        font-size: 18px;
+        margin-top: .5rem;
+     }
+     
+     ul li ul li{
+        background-color: #232323;
+     }
+     #iconmais1{
+        margin-left: 14rem;
+        width: 12px;
+        height: 12px;
+        margin-top: 1.5rem;
+     }
+     #iconmais2{
+        margin-left: 13rem;
+        width: 12px;
+        height: 12px;
+        margin-top: 1.5rem;
+     }
+     #iconmais3{
+        margin-left: 15rem;
+        width: 12px;
+        height: 12px;
+        margin-top: 1.5rem;
+     }
+     #iconmais4{
+        margin-left: 15.3rem;
+        width: 12px;
+        height: 12px;
+        margin-top: 1.5rem;
+     }
+     .about-us, .acount, .policies, .contact{
+        display: none;
+     }
+    
+    
+
+
+     
+
+      
+
+
+
+      .certificates{
+        width: 375px;
+        height: 100x;
+        background-color: #fff;
+      }
+      .certificates h1{
+        font-style: normal;
+        font-weight: 510;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        margin-top: 24px;
+        margin-bottom: 8px;
+      }
+      .cert-img {
+       display: flex;
+       justify-content: center;
+       gap: 1rem;
+       margin-bottom: 24px;
+      }
+      .terms{
+        width: 375px;
+        height: 150px;
+        background-color: #232323;
+      }
+      .terms img{
+        width: 96px;
+        height: 22px;
+        margin-top: 24px;
+        margin-bottom: 12px;
+        margin-left: 139.5px;
+      }
+      .terms p{
+        color: #fff;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 150%;
+        margin-left: 25px;
+        margin-right: 25px;
+        text-align: center;
+        margin-bottom: 1rem;
+      }
+      .vtex{
+        display: flex;
+        justify-content: center;
+        background: #142032;
+      }
+      .vtex img:nth-child(1){
+        width: 24px;
+        height: 20px;
+        margin-top: .8rem;
+        margin-left: 1px;
+      }
+      .vtex img:nth-child(2){
+        width: 7.5px;
+        height: 8.4px;
+        margin-left: 1px;
+        margin-top: 1.2rem;
+      }
+      .vtex img:nth-child(3){
+        width: 7.5px;
+        height: 8.4px;
+        margin-left: 1px;
+        margin-top: 1.2rem;
+      }
+      .vtex img:nth-child(4){
+        width: 7.5px;
+        height: 8.4px;
+        margin-left: 1px;
+        margin-top: 1.2rem;
+      }
+      .vtex img:nth-child(5){
+        width: 7.5px;
+        height: 8.4px;
+        margin-left: 1px;
+        margin-top: 1.2rem;
+      }
+      .vtex img:nth-child(6){
+        width: 7.5px;
+        height: 8.4px;
+        margin-left: 5px;
+        margin-top: 1.2rem;
+      }
+      .vtex img:nth-child(7){
+        width: 50px;
+        height: 10px;
+        margin-left: 5px;
+        margin-top: 1rem;
+      }
+
+
+
+    
+      
+
+   
+      
+        
+    
+      
+}
+  
