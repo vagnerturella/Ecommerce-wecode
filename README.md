@@ -17,6 +17,4 @@ Link para acesso:  https://vagnerturella.github.io/Ecommerce-wecode/
 
 
 
-<div align="center">
-  <img height="6500px" width="800px" src="https://user-images.githubusercontent.com/Captura de Tela (177).png"/>
-</div>
+
