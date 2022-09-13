@@ -6,7 +6,7 @@ Link para acesso:  https://vagnerturella.github.io/Ecommerce-wecode/
 
 <h2>Sobre</h2>
 
--Versão Mobile(375x667).<br>
+-Versão Mobile(414x896).<br>
 -Tecnologias utilizadas foram JavaScript, html e css.
 - Menu dropdown com categorias e submenus.
 - Barra dropdown de pesquisa.
